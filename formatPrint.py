@@ -4,7 +4,7 @@
 # Summary = Format dollar amount
 
 def formatPesos(inPesos):
-    return "Mex$" + format(inPesos, '.2f')
+    return "Chilean$" + format(inPesos, '.2f')
 
 def formatEuros(inEuros):
     return "\u20ac" + format(inEuros, '.2f')
